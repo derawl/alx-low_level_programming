@@ -17,18 +17,18 @@ int main(void)
 			while (a <= 'z')
 					{
 								putchar(a);
-										a++
-												}
+										a++;
+											}
 
-				a = 'A'
+				a = 'A';
 
-							while (a <= 'z')
-									{
-												putchar(a);
-														a++
-																}
+						while (a <= 'Z')
+								{
+											putchar(a);
+													a++;
+														}
 
-					putchar('\n')
+							putchar('\n');
 
 								return (0);
 }
