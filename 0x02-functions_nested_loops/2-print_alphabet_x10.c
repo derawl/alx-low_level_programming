@@ -1,18 +1,19 @@
 #include "main.h"
 /**
- * prnumnt_alphabet_x10 - print the alphabet 10 times
+ * print_alphabet_x10 - prints alphabeth 10 times
  *
  * Return: 0
- */
-void prnumnt_alphabet_x10(void)
-{
-	char alpha, num;
+*/
 
-	for (num = 0; num <= 9; num++)
+void print_alphabet_x10(void)
+{
+	char c, i;
+
+	for (i = 0; i <= 9; i++)
 	{
-		for (alpha = 'a'; alpha <= 'z'; alpha++)
+		for (c = 'a'; c <= 'z'; c++)
 		{
-			_putchar(alpha);
+			_putchar(c);
 		}
 		_putchar('\n');
 	}
