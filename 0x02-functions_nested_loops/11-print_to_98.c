@@ -2,24 +2,22 @@
 
 /**
  * print_to_98 - prints number from n to 98.
- * @num: The variable number
+ * @n: The variable number
 */
 
-void print_to_98(int num)
+void print_to_98(int n)
 {
-	if (num >= 98)
+	if (n >= 98)
 	{
-		while (num > 98){
-			printf("%d, ", num--);
-			printf("%d\num", num);
-		}
+		while (n > 98)
+			printf("%d, ", n--);
+		printf("%d\n", n);
 	}
 
 	else
 	{
-		while (num < 98){
-			printf("%d, ", num++);
-			printf("%d\num", num);
-		}
+		while (n < 98)
+			printf("%d, ", n++);
+		printf("%d\n", n);
 	}
 }
