@@ -2,6 +2,8 @@
 
 /**
  *swap_int - swaps values in address
+ *@a: pointer to variable a
+ *@b: pointer to variable b
  *Return: returns nothing
  */
 
