@@ -16,11 +16,9 @@ void rev_string(char *str)
 	while (*(str + len) != '\0')
 	{
 		len++;
-		i++;
 	}
 
 	for (i = ((len - 1) / 2) + 1; i < len; i++)
 		putchar(*(str + i));
 	putchar(10);
 }
-
