@@ -2,8 +2,8 @@
 
 /**
  *swap_int - swaps values in address
- *@s: pointer to the string
- *Return: returns nothing
+ *@s: args s
+ *Return: returns string length
  */
 
 int _strlen(char *s)
