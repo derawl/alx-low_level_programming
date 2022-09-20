@@ -1,18 +1,17 @@
 #include "main.h"
 
 /**
- *swap_int - swaps values in address
- *@s: args s
- *Return: returns string length
+ *_strlen - returns the length of a string
+ * @s: string
+ *Return: returns length as integer;
  */
 
 int _strlen(char *s)
 {
-	int len;
-	while (*s != '\0')
-	{
+	int len = 0;
+
+	while (*(s + len) != '\0')
 		len++;
-		s++;
-	}
+
 	return (len);
 }
