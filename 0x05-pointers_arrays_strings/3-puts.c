@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- *swap_int - swaps values in address
+ *_puts - prints a string, followed by a new line, to stdout
  *@str: args str
  *Return: returns string length
  */
