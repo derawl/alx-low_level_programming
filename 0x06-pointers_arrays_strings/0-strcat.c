@@ -1,6 +1,5 @@
 #include "main.h"
 #include <stdio.h>
-#include <string.h>
 /**
  * main - concatenate strings
  *@dest: str
@@ -9,13 +8,17 @@
 */
 char *_strcat(char *dest, char *src)
 {
-	int len1 = strlen(*dest);
-	int len2 = strlen(*src);
-	int i;
+	int len1 = 0;
+	int len2 = 0;
+	int i = 0;
 
-	for(i = 0; i < len2; i++){
-		*dest[len1+i] = *src[i]
+	while(dest[i++]){
+		len2++;
 	}
 
-	return *dest;
+	for(i = 0; src[i]; i++){
+		dest[len2++] = src[i]
+	}
+
+	return(dest);
 }
