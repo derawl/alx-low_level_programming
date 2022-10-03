@@ -1,3 +1,5 @@
+#include<stdio.h>
+
 /**
  * main - prints name of program
  * @argc: number of args
@@ -6,10 +8,8 @@
  * Return: 0
 */
 
-#include<stdio.h>
-
 int main(int argc, char* argv[])
 {
-    printf("%s", argv[0]);
+    printf("%s\n", argv[0]);
     return 0;
 }
