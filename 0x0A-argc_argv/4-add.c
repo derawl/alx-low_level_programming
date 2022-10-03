@@ -24,9 +24,10 @@ int main(int argc, char *argv[])
         {
             puts("Error");
             return (1);
-        }else
-        {
-            result += atoi(argv[i]);
+        }
+        else{
+                result += atoi(argv[i]);
+            
         }
     }
     printf("%d\n", result);
