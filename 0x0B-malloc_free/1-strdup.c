@@ -1,3 +1,6 @@
+#include "main.h"
+#include <stdio.h>
+
 /**
 * _strdup -> string duplicator function
 * @str: string to be dupliated
