@@ -9,10 +9,8 @@
  {
      int* p;
      
-     p = (int) malloc(sizeof(unsigned int));
+     p = (int) malloc(b);
      if(p == NULL)
-     {
-         return 98;
-     }
+         exit(98);
      return p;
  }
