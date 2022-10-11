@@ -1,11 +1,9 @@
 #include <stdio.h>
 /**
  *  dog - struct defined
- *
  * Return: null.
 */
-
-struct dog 
+struct dog
 {
     char *name;
     float age;
