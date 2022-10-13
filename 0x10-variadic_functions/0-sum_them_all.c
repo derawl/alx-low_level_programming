@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdarg.h>
 
-/*
+/**
 *sum - adds the unkown variables
 *
 *Return: 0 if n is 0, sum if n is not 0
