@@ -1,26 +1,33 @@
+/*
+ * File: 1-print_numbers.c
+ * Auth: Rawllings 
+ */
 #include <stdio.h>
 #include <stdarg.h>
 #include "variadic_functions.h"
 
 /**
-*print_numbers - adds the unkown variables
-*
-*Return: numbers with separator
-*/
-
+ * print_numbers - Prints numbers, followed by a new line.
+ * @separator: The string to be printed between numbers.
+ * @n: The number of integers passed to the function.
+ * @...: A variable number of numbers to be printed.
+ */
 void print_numbers(const char *separator, const unsigned int n, ...)
 {
-    va_list list;
-    va_start(list, n);
-    
-    int i = 0;
-    for(i = 0; i < n; i++)
-    {
-        printf("%d", va_arg(list, int));
-        if(separator != NULL && i != n-1)
-                printf("%s", separator);
-    }
-    printf("\n");
-    
-    va_end(list);
+	va_list nums;
+	unsigned int index;
+
+	va_start(nums, n);
+
+	for (index = 0; index < n; index++)
+	{
+		printf("%d", va_arg(nums, int));
+
+		if (index != (n - 1) && separator != NULL)
+			printf("%s", separator);
+	}
+
+	printf("\n");
+
+	va_end(nums);
 }
