@@ -9,5 +9,6 @@
 
 int _atoi(char *s)
 {
-  return(s);
+  int mem = (int) s;
+  return(mem);
 }
