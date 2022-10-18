@@ -9,4 +9,6 @@
 
 int _atoi(char *s)
 {
+  char memory = s;
+  return(0);
 }
