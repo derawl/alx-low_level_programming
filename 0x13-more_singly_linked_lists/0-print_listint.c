@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "list.h"
+#include list.h
 /*
 * - print_listint: prints elements of linked list
 * @h: head pointer
