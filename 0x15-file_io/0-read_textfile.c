@@ -1,4 +1,3 @@
-// Online C compiler to run C program online
 #include <stdio.h>
 
 #include "main.h"
@@ -10,7 +9,7 @@
  *
  * Return: numbers of letters printed. It fails, returns 0.
  */
-ssize_t read_textfile(const char *filename, size_t letters)
+int ssize_t read_textfile(const char *filename, size_t letters)
 {
 	int fd;
 	ssize_t nrd, nwr;
