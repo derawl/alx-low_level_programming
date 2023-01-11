@@ -3,8 +3,8 @@
 /**
  * hash_table_set - Adds an element to the hash table
  * @ht: hash table to add to
- * @key: key to add
- * @value: value to store for key
+ * @key: key to add value at
+ * @value: value to store related tp key
  * Return: 1 if success, 0 if fail
  */
 int hash_table_set(hash_table_t *ht, const char *key, const char *value)
