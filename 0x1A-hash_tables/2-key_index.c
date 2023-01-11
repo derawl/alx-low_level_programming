@@ -1,5 +1,3 @@
-able File  12 lines (11 sloc)  340 Bytes
-
 #include "hash_tables.h"
 
 /**
