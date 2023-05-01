@@ -3,9 +3,10 @@
 /*
  * main - Entry point
  *
+ * Description: Prints the size of various data types
+ *
  * Return: Always 0 (Success)
 */
-
 int main(void)
 {
 	int a;
