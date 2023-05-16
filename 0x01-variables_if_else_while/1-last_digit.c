@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * main - Prints the last digit of n 
+ * main - Prints the last digit of n
  *
  * Return: Always 0
 */
