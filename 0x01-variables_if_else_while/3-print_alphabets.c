@@ -1,34 +1,31 @@
 #include <stdlib.h>
 #include <time.h>
-/* more headers goes there */
 #include <stdio.h>
 
-/* betty style doc for function main goes there */
 /**
- *  * main - Entry point
- *   *
- *    * Return: Always 0
- *     */
-
+ * main - Entry point
+ *
+ * Return: Always 0
+*/
 int main(void)
 {
-		char a = 'a';
+	char a = 'a';
 
-			while (a <= 'z')
-					{
-								putchar(a);
-										a++;
-											}
+	while (a <= 'z')
+	{
+		putchar(a);
+		a++;
+	}
 
-				a = 'A';
+	a = 'A';
 
-						while (a <= 'Z')
-								{
-											putchar(a);
-													a++;
-														}
+	while (a <= 'Z')
+	{
+		putchar(a);
+		a++;
+	}
 
-							putchar('\n');
+	putchar('\n');
 
-								return (0);
+	return (0);
 }
