@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * main - Prints the last digit of n and whether it is greater than 5, 0, or less than 6
+ * main - Prints the last digit of n 
  *
  * Return: Always 0
 */
